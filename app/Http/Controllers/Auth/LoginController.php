@@ -9,6 +9,11 @@ class LoginController extends Controller
 {
     public function login_form()
     {
-        return view('admin.login');
+        return view('auth.login');
+    }
+
+    public function register()
+    {
+        return view('auth.register');
     }
 }
